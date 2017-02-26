@@ -3,7 +3,7 @@
 This project has been developed within the Action and Perception group of the
 school of Psychology at Cardiff University. A new audiovisual lab has been
 created and needed a bit of code in order to be analyse the data provided by
-the measurements and simulations. [Octave][1] has been chosen for several
+the measurements and simulations. [Octave][l1] has been chosen for several
 reasons:
 
 * Open source software
@@ -14,12 +14,22 @@ Please, download it, study it, improve it and share it!
 
 ## Installation
 
+You have two choices, or you create a copy of repo and add the content to your
+patch such as the following:
+
 Copy the files in your home folder `~/` and edit the `~/Octave` file by adding
 the following line:
 
-~~~bash
+```console
 addpath('<directory/where/are/stored/the/files>')
-~~~
+```
+
+You can as well download the [lastest release][l5] and install it using the
+`pkg` command:
+
+```console
+$ pkg install somewhere/pkgname-x.y.z.tar.gz
+```
 
 ## License
 
@@ -31,7 +41,7 @@ We’re really happy to accept contributions from the community, that’s the ma
 reason why we open-sourced it! There are many ways to contribute, even if
 you’re not a technical person.
 
-We’re using the infamous [simplified Github workflow][2] to accept
+We’re using the infamous [simplified Github workflow][l2] to accept
 modifications (even internally), basically you’ll have to:
 
 * create an issue related to the problem you want to fix (good for traceability
@@ -65,7 +75,7 @@ Please document as much as possible the steps to reproduce your problem
 
 
 
-[1]: https://www.gnu.org/software/octave/
-[2]: http://scottchacon.com/2011/08/31/github-flow.html
-[3]: https://berjon.net
+[l1]: https://www.gnu.org/software/octave/
+[l2]: http://scottchacon.com/2011/08/31/github-flow.html
 [l4]: https://github.com/mattberjon/psych-head/issues
+[l5]: https://github.com/mattberjon/psych-head/tarball/master
