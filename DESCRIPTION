@@ -1,0 +1,12 @@
+Name: Psych-Head
+Version: 1.0.1
+Date: 2017-02-26
+Author: Matthieu Berjon <matthieu@berjon.net>
+Maintainer: Matthieu Berjon
+Title: Psych Head
+Description: The Psych Head toolbox is a small toolbox for for Flock of Bird
+ head tracker analysis as well as basic sound spatialisation.
+License: BSD
+Depends: octave (>= 3.8.0)
+BuildRequires: 
+Url: https://github.com/mattberjon/psych-head
